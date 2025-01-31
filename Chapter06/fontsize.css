@@ -1,0 +1,28 @@
+/* 14픽셀이라는 절대값 */
+html {
+  font-size: 14px;
+}
+
+/* 글자크기는 몇 픽셀 ? */
+div {
+  font-size: 2em;
+}
+
+p {
+  /* text-decoration: line-through; */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  text-decoration: line-through underline overline;
+}
+
+span {
+  /* 물결 선언 : wavy */
+  /* text-decoration: wavy underline tomato; */
+
+  /* 점선 선언 : dotted */
+  /* font-size가 아니라 text-decoration에 4px 저장한겁니다. */
+  /* text-decoration: dotted underline overline blue 4px; */
+
+  /* 파선 선언 : dashed */
+  text-decoration: dashed line-through deeppink 2px;
+}
