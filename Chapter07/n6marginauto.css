@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+
+  background-color: gray;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+
+  background-color: yellowgreen;
+
+  margin: 0 auto;
+
+  display: inline-block;
+}
